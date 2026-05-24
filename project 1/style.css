@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.root{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.sidebar{
+    width: 30%;
+    border: 1px solid black;
+    
+}
+.main{
+    width: 65%;
+    border: 1px solid black;
+}
+.image{
+    height: 40px;
+    width: 40px;
+    background-color: black; 
+    margin : auto;  
+}
+.name{
+    text-align: center;
+    padding: 10px;
+}
+.name-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+nav::after{
+content: " / ";
+}
+.position{
+    text-align: center;
+}
+.position-description{
+color: #9EA4AA;
+text-align: center;
+}
+.title{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.project-list{
+    text-align: center;
+    border: 1px solid black;
+    list-style: none;
+}
+.list-item{
+    border: 1px solid black;
+    padding: 5px 0px;
+    background-color: #E9ECEF;
+    list-style: none;
+}
+
+.experience{
+    
+    background-color: #E9ECEF;
+    padding: 10px;
+    border: 1px solid black;
+}
+.para{
+    padding: 0 5px;
+}
+.new-para{
+    padding: 0 5px;
+}
+.course{
+    padding: 0 5px;
+}
+.open-title{
+    padding: 10px 5px;
+}
+.para2{
+    padding: 0 5px;
+}
+.exp-title h3 {
+    padding: 10px 5px;
+}
+.open-source {
+    padding: 10px;
+    background-color: #E9ECEF;
+    border: 1px solid black;
+}
+.list{
+    padding: 0 20px;
+}
+.listoflanguage{
+    list-style: none;
+}
+.listoflanguage li::before{
+    content: "-"; 
+    left: 15px; 
+    position: absolute;
+}
+.listoflanguage li{
+padding-left: 25px;
+position: relative;
+
+}
+.education{
+    border: 1px solid black;
+   
+}
+.review-section h2{
+    padding: 10px;
+}
+.review span {
+    color:#CCCCCC ;
+}
+.review{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+.review-section {
+    padding: 10px;
+}
+.hero-section{
+    border: 1px solid black;
+    height: 250px;
+}
+ .header{
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+ .nav2-item{
+    display: flex;
+    
+ }
+ .nav2::after{
+    content: "  /  ";
+ }
+ 
+ .header-section{
+display: flex;
+
+ }
+ .header{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    margin-bottom: 40px;
+ }
+ .nav2{
+    padding: 0 5px;
+ }
+ .hero-position{
+    text-align: center;
+ }
+ .hero-description{
+    text-align: center;
+    color: #959BA3;
+    margin-top: 10px;
+ }
+ .body-section{
+    display: flex;
+ }
+ .project{
+    width: 30%;
+    border: 1px solid black; 
+    
+ }
+ .heading{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+ }
+ .project .list-item{
+    border-left: 0;
+    border-right: 0;
+ }
+ .project .last-item{
+    border-bottom: 0;
+ }
+ .work-experience{
+    width: 40%;
+    border: 1px solid black;
+    
+ }
+ .education-section{
+    width: 30%;
+    border: 1px solid black;
+ }
+ .body-section .project li{
+    background-color: white;
+    padding-left: 30px;
+ }
+ .project-position{
+   border-bottom: 1px solid black;
+   padding-left: 30px;
+ padding-bottom: 5px;
+ }
+ .work-experience .experience {
+    border-top: 0;
+    background-color: white;
+    border-left: 0;
+    border-right: 0;
+ }
+ .work-experience .heading{
+    padding-left: 10px;
+ }
+ .work-experience .open-source{
+    background-color: white;
+    border-left: 0;
+    border-right:0 ;
+ }
+ .education-section .new-para{
+    padding-bottom:10px ;
+ }
+ .work-experience .open-source{
+    border-bottom: 0;
+ }
+ .student span {
+    color:#D1D1D1;
+    
+ }
+ .student{
+    /* padding-bottom: 10px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+ }
+ .student-review{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .footer{
+    padding: 150px;
+    text-align: center;
+ }
+ .review-section .footer{
+    padding: 10px;
+ }
+
+
+ 
+ 
+ 
+    
+
+
